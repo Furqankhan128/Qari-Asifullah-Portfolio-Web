@@ -74,19 +74,7 @@
     <main class="main">
 
         <!-- Hero Section -->
-
-        <section id="hero" class="hero section dark-background" style="background-color: #1E3978;">
-            <img src="assets/img/hero-bg.jpg" alt="Background Image" class="hero-image" style="width: 100%; height: auto;">
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100" style="padding-top: 400px;">
-                <h2>Qari Asif Ullah</h2>
-                <p>
-                    I'm Islamic & Quranic Instructor in
-                    <span class="typed" data-typed-items="Hifz, Nazira, Tafseer, Prayer Guidance, Dua's and Islamic Studies"></span>
-                    <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
-                </p>
-            </div>
-        </section>
+        <img src="assets/img/hero-bg.jpg" alt="Background Image" class="hero-image" style="width: 100%; height: 100%;">
         <!-- /Hero Section -->
         <!-- About Section -->
         <section id="about" class="about section">
@@ -595,7 +583,7 @@
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            emailjs.init("YOUR_EMAILJS_USER_ID"); // Replace with your EmailJS User ID
+            emailjs.init("playconsole128@gmail.com"); // Replace with your EmailJS User ID
 
             const form = document.querySelector("#contact-form");
             const loadingDiv = document.querySelector(".loading");
@@ -620,7 +608,7 @@
 
                 // Send email using EmailJS
                 emailjs
-                    .send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formData)
+                    .send("service_cyzitix", "template_h21tkp8", formData)
                     .then(() => {
                         loadingDiv.style.display = "none";
                         sentMessageDiv.style.display = "block";
